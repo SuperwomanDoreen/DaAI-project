@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # E-Commerce Margin Intelligence
 
 ## Project Overview
