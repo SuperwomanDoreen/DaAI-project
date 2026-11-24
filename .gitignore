@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Confidential data
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+data/external/
+data/features/
+data/analytics/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated datasets
+*.parquet
+*.csv
+*.jsonl
+*.xlsx
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# Generated outputs
+outputs/
+artifacts/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
